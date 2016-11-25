@@ -14,7 +14,16 @@ val app = crossProject.settings(
   libraryDependencies ++= Seq(
     "com.typesafe.akka" %% "akka-http-experimental" % "2.4.11",
     "com.typesafe.akka" %% "akka-actor" % "2.4.12",
-    "org.webjars" % "bootstrap" % "3.2.0"
+    "org.webjars" % "bootstrap" % "3.2.0",
+    "com.github.cb372" %% "scalacache-guava" % "0.9.3",
+
+    "com.typesafe" % "ssl-config-core_2.11" % "0.2.1",
+    "com.eed3si9n" %% "gigahorse-core" % "0.1.1",
+
+
+    "io.circe" %% "circe-core" % "0.6.1",
+    "io.circe" %% "circe-generic" % "0.6.1",
+    "io.circe" %% "circe-parser" % "0.6.1"
   )
 )
 

@@ -1,5 +1,3 @@
-package simple
-
 import scalatags.JsDom.all._
 import scalajs.concurrent.JSExecutionContext.Implicits.runNow
 import org.scalajs.dom
